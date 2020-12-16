@@ -1,0 +1,473 @@
+@font-face {
+    font-family: "PtSans";
+    src: url("fonts/ptsans.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PtSansBold";
+    src: url("fonts/ptsansbold.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*************************GLOBAL PROPERTY*************************/
+body {
+    font-family: "PtSansBold", sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*-------------------------INDEX------------------------*/
+/*************************HEADER*************************/
+main {
+    margin-bottom: -120px;
+}
+.main-header {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.main-navigation {
+    display: flex;
+    width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: -13px;
+}
+.main-navigation-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    width: 328px;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.site-navigation {
+    font-size: 14px;
+    line-height: 26px;
+}
+.site-navigation a {
+    color: #000000;
+    text-decoration: none;
+}
+.site-navigation a:hover {
+    color: #81b3d2;
+}
+.site-navigation a:active {
+    color: #b2b2b2;
+}
+.section-greeting {
+    display: flex;
+    flex-direction: column;
+    background-image: url("content/background-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 590px;
+}
+.greeting-welcome-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 76px;
+}
+.greeting-gorgeus-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.greeting-sedona-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+}
+.greeting-because-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 57px;
+}
+/*************************MAIN*************************/
+.section-advantages {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    padding-top: 60px;
+}
+.reason-header {
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 52px;
+}
+.reason-header h1 {
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+.reason-header p {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+}
+.advantages-1 {
+    display: flex;
+    background-color: #81b3d1;
+}
+.advantages-1-description {
+    width: 400px;
+}
+.advantages-1-description h2 {
+    font-size: 21px;
+    color: #ffffff;
+    width: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.description-number {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.advantages-1-description p:last-child {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    width: 310px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-1-img img {
+    height: 256px;
+    width: 800px;
+}
+.general-advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.general-advantages div {
+    text-align: center;
+}
+.general-advantages div p {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+.advantages-house {
+    width: 400px;
+}
+.advantages-house p {
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-burger {
+    width: 400px;
+}
+.advantages-burger p {
+    width: 287px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-gift {
+    width: 400px;
+}
+.advantages-gift p {
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-2 {
+    display: flex;
+    background-color: #81b3d1;
+}
+.advantages-2-description {
+    width: 400px;
+}
+.advantages-2-description h2 {
+    font-size: 21px;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.description-number {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.advantages-2-description p:last-child {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    width: 310px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-2-img img {
+    height: 256px;
+    width: 800px;
+}
+.advantages-3-4-5 {
+    display: flex;
+    background-color: #eeeeee;
+    min-height: 256px;
+}
+.advantages-3-4-5 {
+    text-align: center;
+}
+.advantages-3-description {
+    width: 400px;
+}
+.advantages-3-description h2 {
+    font-size: 21px;
+    width: 117px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.advantages-3-description .description-number-3 {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.advantages-3-description p:last-child {
+    font-size: 14px;
+    color: #333333;
+    width: 208px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-4-description {
+    width: 400px;
+}
+.advantages-4-description h2 {
+    font-size: 21px;
+    width: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.advantages-4-description .description-number-4 {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.advantages-4-description p:last-child {
+    font-size: 14px;
+    color: #333333;
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-5-description {
+    width: 400px;
+}
+.advantages-5-description h2 {
+    font-size: 21px;
+    width: 99px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+.advantages-5-description .description-number-5 {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.advantages-5-description p:last-child {
+    font-size: 14px;
+    color: #333333;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-hotel {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.interested h4 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 21px;
+}
+.interested p {
+    font-family: "PtSana", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 45px;
+}
+.interested > button {
+    font-family: "PtSans", sans-serif;
+    text-transform: uppercase;
+    line-height: 26px;
+    width: 568px;
+    height: 86px;
+    border: 0px;
+    background-color: #756357;
+    color: #ffffff;
+}
+.interested button:hover {
+    background-color: #604e43;
+}
+.interested button:active {
+    color: #857870;
+    background-color: #503d32;
+}
+.main-footer {
+    display: flex;
+    width: 1200px;
+    min-height: 120px;
+    background-image: url(content/background-footer.png);
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+}
+.hashtag {
+    margin-left: 132px;
+    margin-right: 256px;
+}
+.hashtag p {
+    margin-top: 47px;
+}
+.social {
+    margin-right: 228px;
+}
+.social-list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.social-item {
+    width: 50px;
+    height: 50px;
+}
+.social-item a {
+    background-color: #81b3d1;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+.social-item a:hover {
+    background-color: #669dc0;
+}
+.social-item a:active {
+    background-color: #5495bd;
+}
+.social-twitter {
+    background-image: url(content/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+}
+.social-twitter:active {
+    background-image: url(content/twitter-active.svg);
+}
+.social-facebook {
+    background-image: url(content/fb.svg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+}
+.social-facebook:active {
+    background-image: url(content/fb-active.svg);
+}
+.social-youtube {
+    background-image: url(content/youtube.svg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+}
+.social-youtube:active {
+    background-image: url(content/youtube-active.svg);
+}
+.developer {
+    display: flex;
+    min-width: 199px;
+}
+.developer p {
+    font-family: "PtSans", sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-right: 8px;
+}
+.seacrh-hotel-modal {
+    position: absolute;
+    background-color: #ffffff;
+    height: 395px;
+    width: 568px;
+    left: 50%;
+    margin-left: -284px;
+}
+.modal-form {
+    width: 458px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-form label {
+    font-size: 14px;
+    line-height: 26px;
+}
+.adults-input::-webkit-outer-spin-button,
+.adults-input::-webkit-inner-spin-button,
+.children-input::-webkit-outer-spin-button, 
+.children-input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.date-of-arrival {
+    width: 345px;
+    margin-left: 17px;
+}
+.date-of-departure {
+    width: 345px;
+    margin-left: 13px;
+}
+.adults-input {
+    width: 114px;
+    margin-left: 41px;
+}
+.children-input {
+    width: 114px;
+    margin-left: 27px;
+}
+.modal-form button {
+    width: 458px;
+}
